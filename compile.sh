@@ -1,3 +1,3 @@
-python3 parser.py > input
-gcc main.cpp -o main -O2
+python3 parser.py 18 > input &&\
+gcc main.cpp -o main -O2 &&\
 ./main < input

@@ -1,6 +1,7 @@
 import csv
+import sys
 
-n = 23
+n = int(sys.argv[1])
 print(n)
 filename = './european_cities.csv'
 with open(filename, 'r') as infile:
